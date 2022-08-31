@@ -1,0 +1,58 @@
+.border {
+    padding: 7px;
+    border-right: 3px solid #323232;
+    border-bottom: 3px solid #323232;
+    height: 162px;
+}
+
+.border:nth-child(7n) {
+    border-right: none;
+}
+
+.border:hover:nth-child(7n) .hiddenBlock {
+    left: -309px;
+}
+
+.border:hover:nth-child(7n-1) .hiddenBlock {
+    left: -309px;
+}
+
+.border:hover:nth-child(7n-2) .hiddenBlock {
+    left: -309px;
+}
+
+.border:nth-last-child(-n+7) {
+    border-bottom: none;
+}
+
+
+.wrap {
+    width: 72px ;
+    height: auto;
+    background-repeat: no-repeat;
+    background-image: url(../../Images/rarity_common.png);
+    background-size: 100%;
+}
+
+.wrap:hover .hiddenBlock {
+    display: flex;
+}
+
+.img {
+    width: 72px;
+    height: auto;
+}
+
+.hiddenBlock {
+    display: none;
+    width: 274px;
+    height: 162px;
+    background: rgba(0, 0, 0, 0.8);
+    position: relative;
+    left: 70px;
+    bottom: 148px;
+    border: 2px solid #333333;
+    margin-left: 18px;
+}
+
+

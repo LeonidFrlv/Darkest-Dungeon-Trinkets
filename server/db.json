@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Accuracy Stone",
+    "rarity": "(Very)Common",
+    "type": "All classes",
+    "properties": [
+      { "name": "acс", "value":  5},
+      { "name": "spd", "value":  -1},
+      { "name": "ACC_danger_master", "value":  5}
+    ]
+  },
+  {
+    "name": "Accuracy Stone",
+    "rarity": "(Very)Common",
+    "type": "All classes",
+    "properties": [
+      { "name": "ACC", "value":  5},
+      { "name": "spd", "value":  -1},
+      { "name": "ACC_danger_master", "value":  5}
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+.filterBtnByClass {
+    width: 500px;
+    height: 100px;
+    border-top: #6B5532 2px solid;
+    border-bottom: #6B5532 2px solid;
+    font-size: 75px;
+    color: #FFF797;
+    background: black;
+}
+
+.filterBtnByClass:hover {
+    border-top: #8A662C 2px solid;
+    border-bottom: #8A662C 2px solid;
+}
+
+.hiddenClassBlock {
+    display: flex;
+    background: black;
+    width: 450px;
+    height: 0;
+    margin-left: 25px;
+    padding: 0 70px;
+    overflow: scroll;
+}
+
+.hiddenClassBlock::-webkit-scrollbar {
+    display: none;
+}
+
+.filterBtnByClass:focus ~ .hiddenClassBlock {
+    transition: height 2s;
+    height: 270px;
+}
+
+.classBtn {
+    border: none;
+    outline: none;
+    width: 85px;
+    height: 85px;
+}
+
+.classBtns {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
